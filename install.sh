@@ -11,7 +11,4 @@ sudo apt-get install -y build-essential nodejs
 
 
 
-echo "--- Install IMAP client  ---"
-
-sudo npm install imap
 echo "--- All Done! ---"
