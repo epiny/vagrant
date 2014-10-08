@@ -1,0 +1,32 @@
+<div class="container">
+	<table class="table table-hover">
+		<thead>
+			<tr>
+				<th>Order ID</th>
+				<th> Order ID</th>
+				<th>Product</th>
+				<th>Status</th>
+				<th>Last Updated</th>
+				<th>Expected On</th>
+				<th>Tracking</th>
+				<th>Location</th>
+				<th>Price</th>
+				<th>Customer</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="order in orders">
+	 			<td>{{ order._id }}</td>
+				<td>{{ order.appleID }}</td>
+				<td>{{ order.product }}</td>
+				<td>{{ order.status }}</td>
+				<td>{{ order.dateLastUpdated | date }}</td>
+				<td>{{ order.dateExpected | date }}</td>
+				<td>{{ order.tdacking }}</td>
+				<td>{{ order.location }}</td>
+				<td>{{ order.price | currency }}</td>
+				<td>{{ order.customer }}</td>
+			</tr>
+	 	</tbody>
+	</table>
+</div>

@@ -1,0 +1,19 @@
+[
+  '{{repeat(5,7)}}',
+  {
+    _id: '{{objectId()}}',
+    appleID: 'W{{integer(5E8, 5.5E8)}}',
+    product: 'iPhone {{random("5S", "5C", "6", "6 Plus")}}',
+    status: '{{random("processing", "shipped", "delivered", "received", "canceled")}}',
+    dateLastUpdated: '{{date(new Date(2014, 8, 20), new Date(2014, 9, 8)).getTime()}}',
+    dateExpected: '{{date(new Date(2014, 9, 10), new Date(2014, 10, 30)).getTime()}}',
+    tracking: '1ZV5F{{integer(1E12, 2E12)}}',
+    location: 'WH #{{integer(1,5)}}',
+    price: '{{floating(549, 1032, 2)}}',
+    customer: {
+      _id: '{{objectId()}}',
+      name: '{{firstName()}} {{surname()}}',
+      email: '{{email(1)}}'
+    }
+  }
+]
