@@ -1,82 +1,192 @@
 [
-    {
-        "_id": "54357c5b2974bfc2ab8b6c1b",
-        "appleID": "W516898410",
-        "product": "iPhone 6 Plus",
-        "status": "canceled",
-        "dateLastUpdated": 1412105150277,
-        "dateExpected": 1414578744445,
-        "tracking": "1ZV5F1661091604270",
-        "location": "WH #1",
-        "price": 570.22,
-        "customer": {
-            "_id": "54357c5b0846842700049e87",
-            "name": "Angelica Huff",
-            "email": "rheablankenship@empirica.com"
-        }
-    },
-    {
-        "_id": "54357c5bc82d94106a485298",
-        "appleID": "W534692192",
-        "product": "iPhone 6",
-        "status": "canceled",
-        "dateLastUpdated": 1411487302784,
-        "dateExpected": 1417004091577,
-        "tracking": "1ZV5F1919608957135",
-        "location": "WH #1",
-        "price": 739.58,
-        "customer": {
-            "_id": "54357c5b299ba1340bfb68dc",
-            "name": "Silvia Hickman",
-            "email": "isabelblackburn@isotrack.com"
-        }
-    },
-    {
-        "_id": "54357c5b0d99d064482c693a",
-        "appleID": "W533625614",
-        "product": "iPhone 6 Plus",
-        "status": "shipped",
-        "dateLastUpdated": 1411358699101,
-        "dateExpected": 1416580852249,
-        "tracking": "1ZV5F1373340002494",
-        "location": "WH #2",
-        "price": 958.34,
-        "customer": {
-            "_id": "54357c5bef66abaa840eb205",
-            "name": "Felicia Estrada",
-            "email": "heidicraig@musaphics.com"
-        }
-    },
-    {
-        "_id": "54357c5bbd1ac84c79f6f824",
-        "appleID": "W516481162",
-        "product": "iPhone 5S",
-        "status": "processing",
-        "dateLastUpdated": 1412175261147,
-        "dateExpected": 1413276148976,
-        "tracking": "1ZV5F1201524199452",
-        "location": "WH #3",
-        "price": 783.6,
-        "customer": {
-            "_id": "54357c5b56d5b94f1ab3f013",
-            "name": "Hawkins Stanton",
-            "email": "gillmyers@rodeology.com"
-        }
-    },
-    {
-        "_id": "54357c5b06e1776df1f28252",
-        "appleID": "W513344693",
-        "product": "iPhone 6 Plus",
-        "status": "delivered",
-        "dateLastUpdated": 1411845838546,
-        "dateExpected": 1415548131144,
-        "tracking": "1ZV5F1351014198037",
-        "location": "WH #2",
-        "price": 767.96,
-        "customer": {
-            "_id": "54357c5befeddf2a0727529d",
-            "name": "Dawson Travis",
-            "email": "cookewaller@martgo.com"
-        }
+  {
+    "_id": "543c2daf2f5a6cced30d9981",
+    "appleID": "W535183393",
+    "products": [
+      {
+        "color": "Gold",
+        "device": "iPhone",
+        "model": "A1234",
+        "modelName": "6 Plus",
+        "storage": 128
+      },
+      {
+        "color": "Gold",
+        "device": "iPhone",
+        "model": "A1234",
+        "modelName": 6,
+        "storage": 16
+      },
+      {
+        "color": "Space Gray",
+        "device": "iPhone",
+        "model": "A1234",
+        "modelName": "5C",
+        "storage": 128
+      },
+      {
+        "color": "Gold",
+        "device": "iPhone",
+        "model": "A1234",
+        "modelName": 6,
+        "storage": 16
+      }
+    ],
+    "status": "processing",
+    "dateLastUpdated": 1412445087373,
+    "dateExpected": 1414390682741,
+    "tracking": "1ZV5F1409370103385",
+    "location": "WH #2",
+    "price": 726.2,
+    "customer": {
+      "_id": "543c2daf273d6ebca66240ed",
+      "name": "Isabella Hart",
+      "email": "renepeters@jetsilk.com"
     }
+  },
+  {
+    "_id": "543c2dafb4aa01ba34a44fd7",
+    "appleID": "W509669942",
+    "products": [
+      {
+        "color": "Silver",
+        "device": "iPhone",
+        "model": "A1234",
+        "modelName": "6 Plus",
+        "storage": 128
+      },
+      {
+        "color": "Space Gray",
+        "device": "iPhone",
+        "model": "A1234",
+        "modelName": "5C",
+        "storage": 64
+      },
+      {
+        "color": "Space Gray",
+        "device": "iPhone",
+        "model": "A1234",
+        "modelName": "5C",
+        "storage": 128
+      },
+      {
+        "color": "Gold",
+        "device": "iPhone",
+        "model": "A1234",
+        "modelName": "5S",
+        "storage": 16
+      }
+    ],
+    "status": "canceled",
+    "dateLastUpdated": 1412555300982,
+    "dateExpected": 1416021134988,
+    "tracking": "1ZV5F1331072114175",
+    "location": "WH #5",
+    "price": 824.33,
+    "customer": {
+      "_id": "543c2daf882146f32b377a92",
+      "name": "Ayala Sexton",
+      "email": "buckleymccarty@cytrex.com"
+    }
+  },
+  {
+    "_id": "543c2dafe891a820f02cdfb0",
+    "appleID": "W528799279",
+    "products": [
+      {
+        "color": "Silver",
+        "device": "iPhone",
+        "model": "A1234",
+        "modelName": 6,
+        "storage": 128
+      },
+      {
+        "color": "Gold",
+        "device": "iPhone",
+        "model": "A1234",
+        "modelName": "5S",
+        "storage": 64
+      },
+      {
+        "color": "Silver",
+        "device": "iPhone",
+        "model": "A1234",
+        "modelName": "6 Plus",
+        "storage": 128
+      },
+      {
+        "color": "Gold",
+        "device": "iPhone",
+        "model": "A1234",
+        "modelName": "6 Plus",
+        "storage": 128
+      }
+    ],
+    "status": "received",
+    "dateLastUpdated": 1412342643396,
+    "dateExpected": 1416399336616,
+    "tracking": "1ZV5F1282996921334",
+    "location": "WH #2",
+    "price": 797.46,
+    "customer": {
+      "_id": "543c2dafcb6a8d190f079f0b",
+      "name": "Mathews Meyer",
+      "email": "fayepierce@viagrand.com"
+    }
+  },
+  {
+    "_id": "543c2dafbd21196843babdef",
+    "appleID": "W544940660",
+    "products": [
+      {
+        "color": "Silver",
+        "device": "iPhone",
+        "model": "A1234",
+        "modelName": "6 Plus",
+        "storage": 128
+      }
+    ],
+    "status": "canceled",
+    "dateLastUpdated": 1412704665234,
+    "dateExpected": 1415543262835,
+    "tracking": "1ZV5F1150863032788",
+    "location": "WH #4",
+    "price": 829.08,
+    "customer": {
+      "_id": "543c2daf0c52d396e62423db",
+      "name": "Rivas Evans",
+      "email": "augustamann@ovolo.com"
+    }
+  },
+  {
+    "_id": "543c2dafe0f01525da5db6d2",
+    "appleID": "W523013914",
+    "products": [
+      {
+        "color": "Space Gray",
+        "device": "iPhone",
+        "model": "A1234",
+        "modelName": "5S",
+        "storage": 128
+      },
+      {
+        "color": "Gold",
+        "device": "iPhone",
+        "model": "A1234",
+        "modelName": "5C",
+        "storage": 128
+      }
+    ],
+    "status": "delivered",
+    "dateLastUpdated": 1411329160052,
+    "dateExpected": 1416102036216,
+    "tracking": "1ZV5F1257508017821",
+    "location": "WH #4",
+    "price": 745.28,
+    "customer": {
+      "_id": "543c2dafdb95970a0fc4da30",
+      "name": "Anderson Hutchinson",
+      "email": "nanettesantiago@virva.com"
+    }
+  }
 ]
