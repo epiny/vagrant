@@ -7,6 +7,10 @@ app.config(function ($routeProvider) {
 			templateUrl: 'app/orders/orders.html',
 			controller: 'OrdersController'
 		})
+		// .when('/new', {
+		// 	templateUrl: 'app/orders/new.html',
+		// 	controller: 'NewOrderController'
+		// })
 		.otherwise({
 			redirectTo: '/'
 		});
@@ -32,3 +36,23 @@ app.factory('ordersFactory', function ($http) {
 	return factory;
 });
 
+app.controller('Input', function($scope) {
+	var timeout;
+
+	$scope.keyBuffer = [];
+
+	function onTimeout () {
+		alert($scope.keyBuffer.join(' '));
+
+		$scope.keyBuffer = [];
+	}
+
+	$scope.press = function(e) {
+		clearTimeout(timeout);
+
+		$scope.keyBuffer.push(String.fromCharCode(e.keyCode));
+
+		timeout = setTimeout(onTimeout, 2000);
+	};
+
+})
