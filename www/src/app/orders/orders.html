@@ -15,7 +15,7 @@
 		</thead>
 		<tbody ng-repeat="order in orders">
 			<tr ng-repeat="product in order.products">
-	            <td rowspan="{{ order.products.length }}" ng-show="$index < 1">{{ order.appleID }}</td>
+	            <td rowspan="{{ order.products.length }}" ng-if="$index < 1">{{ order.appleID }}</td>
 				<td>{{ product.device }} {{ product.modelName }} {{ product.storage }}GB {{ product.color }}</td>
 				<td>{{ order.status }}</td>
 				<td>{{ order.dateLastUpdated | date }}</td>
