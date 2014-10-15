@@ -16,14 +16,14 @@
 		<tbody ng-repeat="order in orders">
 			<tr ng-repeat="product in order.products">
 	            <td rowspan="{{ order.products.length }}" ng-if="$index < 1">{{ order.appleID }}</td>
+				<td rowspan="{{ order.products.length }}" ng-if="$index < 1">{{ order.customer }}</td>
+				<td rowspan="{{ order.products.length }}" ng-if="$index < 1">{{ order.location }}</td>
 				<td>{{ product.device }} {{ product.modelName }} {{ product.storage }}GB {{ product.color }}</td>
-				<td>{{ order.status }}</td>
-				<td>{{ order.dateLastUpdated | date }}</td>
-				<td>{{ order.dateExpected | date }}</td>
-				<td>{{ order.tracking }}</td>
-				<td>{{ order.location }}</td>
-				<td>{{ order.price | currency }}</td>
-				<td>{{ order.customer }}</td>
+				<td>{{ product.status }}</td>
+				<td>{{ product.dateLastUpdated | date }}</td>
+				<td>{{ product.dateExpected | date }}</td>
+				<td>{{ product.tracking }}</td>
+				<td>{{ product.price | currency }}</td>
 			</tr>
 	 	</tbody>
 	</table>

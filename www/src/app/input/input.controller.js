@@ -1,15 +1,15 @@
 'use strict';
 
-var app = angular.module('epiny', ['ngRoute']);
-
-app.controller('Input', function($scope) {
-	var timeout;
-
+app.controller('Input', ['$scope', function($scope) {
 	$scope.keyBuffer = [];
 
-	$scope.down = function(e) {
-		$scope.keyBuffer.push(String.fromCharCode(e.keyCode);
+	$('body').on('keypress', function(e) {
+		if (e.keyCode == 13) {
+			alert($scope.keyBuffer.join(' '));
 
-		alert(e.keyCode + ' ' + String.fromCharCode(e.keyCode));
-	};
-})
+			$scope.keyBuffer = [];
+		} else {
+			$scope.keyBuffer.push(String.fromCharCode(e.keyCode));
+		}
+	})
+}]);
