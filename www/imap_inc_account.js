@@ -1,15 +1,8 @@
 //include imap library and sets account credentials
-var Imap = require('imap'),
-    inspect = require('util').inspect;
 
-var imap = new Imap({
-  user: 'alfest@gmail.com',
-  password: 'mygmailpassword',
-  host: 'imap.gmail.com',
-  port: 993,
-  tls: true
-});
+var user = {
+  login: 'login',
+  password: 'password',
+};
 
-exports.imap=imap;
-
-
+exports.user=user;
