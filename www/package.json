@@ -1,8 +1,10 @@
 {
-  "name": "angular",
-  "version": "0.0.0",
+  "name": "epiny",
+  "version": "0.0.1",
   "dependencies": {},
   "devDependencies": {
+    "imap":"0.8.*",
+    "level":"0.18.*",
     "gulp": "^3.8.0",
     "gulp-autoprefixer": "^0.0.6",
     "gulp-cache": "^0.2.0",
